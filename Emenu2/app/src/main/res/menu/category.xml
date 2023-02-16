@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/item1"
+
+        android:title="Տաք ուտեստներ"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/item2"
+        android:title="Fast food"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/item3"
+        android:title="Թխվածքներ"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/item4"
+        android:title="Խմիչքնր"
+        app:showAsAction="never"
+        tools:ignore="ExtraText">
+        <menu>
+
+            <item
+                android:id="@+id/subitem1"
+                android:title="Գինիներ" />
+
+            <item
+                android:id="@+id/subitem2"
+                android:title="Հյութեր" />
+            <item
+                android:id="@+id/subitem3"
+                android:title="Գերեջուր" />
+            <item
+                android:id="@+id/subitem4"
+                android:title="Օղիներ" />
+
+        </menu>
+
+    </item>
+
+</menu>
